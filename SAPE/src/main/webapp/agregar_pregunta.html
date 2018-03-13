@@ -23,41 +23,38 @@
         <img class="d-block mx-auto mb-4" src="logo.png" alt="SAPE" width="200" height="72">
         <h2>Agregar pregunta</h2>
         <p class="lead"></p>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 order-md-2">          
-          <form class="needs-validation" novalidate>
-            <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="pregunta">Pregunta</label>
-                <input type="text" class="form-control" id="pregunta" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                  Se requiere la pregunta en su campo correspondiente.
-                </div>
-              </div>
-
-              <div class="col-md-6 mb-3">
-                <label for="descripcion">Descripción</label>
-                <input type="text" class="form-control" id="descripcion" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                  Se requiere de una descripción para la pregunta.
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <label for="categoria">Categoría</label>
-                <input type="text" class="form-control" id="categoria" placeholder="" value="" required>
-                <div class="invalid-feedback">
-                  Se requiere que la pregunta tenga una categoría.
-                </div>
-              </div>
+    </div>
+   
+    <div class="col-md-12 order-md-2">          
+      <form class="needs-validation" novalidate>            
+        <div class="mb-3">
+        	<label for="pregunta">Pregunta</label>
+        	<input type="text" class="form-control" id="pregunta" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Se requiere la pregunta en su campo correspondiente.
             </div>
-                        
-            <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Agregar</button>
-          </form>
-        </div>
-      </div>
+        </div>                      
+
+        <div class="mb-3">
+        	<label for="descripcion">Descripción</label>
+            <input type="text" class="form-control" id="descripcion" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Se requiere de una descripción para la pregunta.
+            </div>
+        </div>                      
+
+        <div class="mb-3">
+          <label for="categoria">Categoría</label>
+            <input type="text" class="form-control" id="categoria" placeholder="" value="" required>
+            <div class="invalid-feedback">
+              Se requiere que la pregunta tenga una categoría.
+            </div>
+        </div>        
+                    
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Agregar</button>
+      </form>
+    </div>      
 
       <footer class="my-5 pt-5 text-muted text-center text-small">
         <p class="mb-1">&copy; 2018 OCTEAM</p>

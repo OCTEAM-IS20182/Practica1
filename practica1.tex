@@ -1,0 +1,85 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\newcommand*{\QEDB}{\hfill\ensuremath{\square}}%
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+\DeclareMathOperator{\Exists}{\exists}
+\DeclareMathOperator{\Forall}{\forall}
+\title{Práctica 1 Ingeniería de Software}
+\usepackage{listings}
+\usepackage{color}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{
+style=mystyle,
+literate={á}{{\'a}}1
+        {ã}{{\~a}}1
+        {é}{{\'e}}1
+        {ó}{{\'o}}1
+        {í}{{\'i}}1
+        {ñ}{{\~n}}1
+        {¡}{{!`}}1
+        {¿}{{?`}}1
+        {ú}{{\'u}}1
+        {Í}{{\'I}}1
+        {Ó}{{\'O}}1
+}
+
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{enumitem}
+
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{commath}
+\begin{document}
+\title{\vspace{-1.5cm}
+	Práctica 1\\
+    \large Universidad Nacional Autónoma de México\\
+    Facutlad de Ciencias\\
+    Ingeniería de Software\\
+}
+\author{
+	OCTEAM\\
+    \texttt{https://github.com/OCTEAM-IS20182/}
+    }
+\date{13 de Marzo 2018}
+\maketitle
+
+Para el momento de crear el repositorio, fue bastante sencillo, desde GitHub, es muy fácil crear una organización, en este caso OCTEAM. Entonces, teniendo eso, bastaba con invitar a todos los miembros del equipo y volverlos dueños de la organización, para fines prácticos, además, todos somos dueños.\\
+
+Entonces, para subir la página, bastó con instalar Maven, y en NetBeans, para no hacer todo a mano, correr un nuevo proyecto web y eso nos generó un pom.xml con el cuál corría la página sin ningún problema en un servidor local. Fue cuestión de tiempo para que todos los miembros del equipo, descargaran todo el proyecto y se pusieran a hacer su parte, con sus ramas individuales.\\
+
+El representante del equipo, encontró unas ligeras complicaciones puesto que al principio, no tenía los permisos adecuados para modificar repositorios de la organización, pero bastó con volverlo el dueño de la organización.\\
+
+El representante de calidad, para hacer su página, lo más complicado fue el hacer que las cosas se alinearan, se vieran de la manera correcta o agradable.\\
+
+La representante de colaboración, se tuvo que pelear un rato con GitHub puesto que fue una nueva tecnología para ella, pero después todo salió como esperaba, sin mayor problema.\\
+
+En realidad, el gran problema del equipo, fue pelearse con los HTML para hacer que se vieran de una manera decente, pero afortunadamente, el equipo salió a flote, con ayuda de plantillas ya prediseñadas y más importante, disponible para el uso y modificación al gusto de cualquier persona.\\
+
+Posteriormente el representante técnico, solo tuvo que agregar todo, pero como hicimos uso de un archivo CSS común, en la rama master, solo había que agregarlo una vez, para no tener el mismo archivo muchas veces en la misma rama, este proceso fue un poco más tardado, pero nada fuera de lo normal o malo, simplemente tardado, el visitar desde terminal cada rama y copiar todo. Pero no tuvo gran ciencia. Para el caso de los archivos SQL, como 3 de nuestros casos de uso usan la misma relación, en realidad, no fue mucho problema, solo fue tratar de hacer que fuera un SQL válido, también, como no había que agregar funcionalidad, en la rama master, simplemente están todos los HTML que hizo cada integrante del equipo, no funcionan, es la pura vista, pero el representante técnico creyó que era mejor, puesto que así ya basta con seleccionar una para verlas todas, en una misma rama.\\
+\end{document}

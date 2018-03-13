@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {background-color: lightgray;}
+
+      h1 {text-align: center;}
+    </style>
+    <title>SAPE - Usuario</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <hr>
+
+    <div>
+      <p align="right">
+	<h4> 
+    	  <p style="float:left;">  &nbsp; <img src="help.png" alt="Ayuda" width="30" height="30"> </p>
+    	  <p style="float:right;">Administrador / Usuario  &nbsp; <img src="user.jpg" alt="Administrador/Usuario" width="20" height="20"> <button type="button"> Salir </button></p>
+    	  <p style="clear: left;"/>
+	</h4>	 
+      </p>
+    </div>
+
+    <h1 align="center"> 
+      <h4> 
+	<p style="float:left;">  &nbsp; <img src="logo.png" alt="SAPE" width="100" height="100"> </p>
+	<h1 align = "center"> Agregar pregunta </h1>
+	<p style="clear: right;"/>
+      </h4>		
+    </h1>
+
+    <p align="center"> 
+      Pregunta: <input type="text" name="Pregunta" value="">
+    </p>
+
+    <p align="center"> 
+      Descripción: <input type="text" name="Descripción" value="">
+    </p>
+
+    <p align="center"> 
+      Categoría: <input type="text" name="Categoría" value="">
+    </p>
+
+    <p align="center"> 
+      <button type="button"> Agregar </button>
+    </p>
+
+    <hr>
+
+  </body>
+</html>
